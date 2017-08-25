@@ -10,18 +10,19 @@ $(document).ready(function(){
     });
 
     $(document).on('click', 'a', function(event){
-    event.preventDefault();
+        if ($(this).parent().parent().is('#season-nav')) {
+            event.preventDefault();
 
-    if ($('#season-nav').hasClass('sticky')) {
-        var amount_to_scroll = $( $.attr(this, 'href') ).offset().top - $('#season-nav').outerHeight(true)
-    }
-    else {
-        var amount_to_scroll = $( $.attr(this, 'href') ).offset().top - $('#season-nav').outerHeight(true) - $('#season-nav').outerHeight(true)
-    }
+            if ($('#season-nav').hasClass('sticky')) {
+                var amount_to_scroll = $( $.attr(this, 'href') ).offset().top - $('#season-nav').outerHeight(true)
+            }
+            else {
+                var amount_to_scroll = $( $.attr(this, 'href') ).offset().top - $('#season-nav').outerHeight(true) - $('#season-nav').outerHeight(true)
+            }
 
-    $('html, body').animate({
-        scrollTop: amount_to_scroll
-    }, 500);
-
+            $('html, body').animate({
+                scrollTop: amount_to_scroll
+            }, 500);
+        }
 });
 });
