@@ -1,0 +1,84 @@
+/* Variables */
+
+$h1-background: #9e9e9e;
+$h2-background: #bfbfbf;
+$text-background: #e6e6e6;
+$nav-background: #595959;
+
+$header-color: #404040;
+$nav-color: #ffffff;
+
+$link-font-weight: 500;
+
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.sticky {
+    position: fixed;
+    top: 0; left: 0;
+    z-index: 10;
+    background-color: $h2-background !important;
+    width: 100%;
+    -webkit-transition: background-color 0.5s;
+    transition: background-color 0.5s;
+}
+
+h1, h2 {
+    display: block;
+    padding: 0.25rem;
+    background-color: $h1-background;
+    color: $header-color;
+    text-align: center;
+}
+
+h2 {
+    background-color: $h2-background;
+}
+
+.summary, .episode {
+    background-color: $text-background;
+    padding: 0.25rem;
+    &:not(:last-child) {
+        border-bottom: 4px solid white;
+    }
+}
+
+.summary {
+    font-style: italic;
+}
+
+#series-nav, #season-nav {
+    background-color: $nav-background;
+    list-style: none;
+
+}
+
+#season-nav {
+    background-color: $h1-background;
+    li {
+        a {
+            color: $header-color;
+            &:hover {
+                color: darken($header-color, 10%);
+            }
+        }
+    }
+}
+
+li {
+        margin: 0 2%;
+        display: inline-block;
+        a {
+            color: $nav-color;
+            font-weight: $link-font-weight;
+            text-decoration: none;
+            &:hover {
+                color: darken($nav-color, 20%);
+                -webkit-transition: color 0.2s;
+                transition: color 0.2s;
+            }
+        }
+    }
