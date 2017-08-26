@@ -1,0 +1,22 @@
+# Contributing Guidelines
+
+## Suggesting a new feature
+Don't use the 'Feature' tag for this. That tag is reserved for features that will be added for sure. The 'Idea' tag is for suggestions and possible features/enhancements
+
+## Tags
+When adding tags to episodes, there are some guidelines to follow:
+- Tags are to be added as additional classes to a `.episode` element
+- Tags must start with a prefix (character, species, mood, etc)
+- Use the 'Idea' label in issues to suggest a new tag or prefix
+- Don't suggest random ensigns as characters. All characters should have a somewhat significant role in at least one of the episodes they're in
+
+### Prefixes
+- character: for a character that has appeared more than once (exception: important characters in movies)
+- mood: for whether the episode is funny, serious, sad, etc.
+- planet: for a planet that has appeared more than once (exception: important planets in movies)
+- species: for a species that has appeared more than once and has more than one named member (exception: important species)
+- ship: for a ship that has appeared more than once (exception: important ships in movies)
+
+### Tags
+(try keep these in alphabetical order)
+Tags have been moved to the TAGS file
