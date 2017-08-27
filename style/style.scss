@@ -38,16 +38,12 @@ h2 {
     background-color: $h2-background;
 }
 
-.summary, .episode {
+.episode {
     background-color: $text-background;
     padding: 0.25rem;
     &:not(:last-child) {
         border-bottom: 4px solid white;
     }
-}
-
-.summary {
-    font-style: italic;
 }
 
 #series-nav, #season-nav {
@@ -68,7 +64,8 @@ h2 {
     }
 }
 
-li {
+.nav {
+    li {
         margin: 0 2%;
         display: inline-block;
         a {
@@ -82,3 +79,28 @@ li {
             }
         }
     }
+}
+
+.tag-list {
+    li {
+        display: inline-block;
+        padding: 4px;
+        margin: 4px;
+        border-radius: 50px;
+    }
+    .character {
+        background-color: #90caf9;
+    }
+    .mood {
+        background-color: #ef9a9a;
+    }
+    .planet {
+        background-color: #b39ddb;
+    }
+    .species {
+        background-color: #fff59d;
+    }
+    .ship {
+        background-color: #ffab91;
+    }
+}
