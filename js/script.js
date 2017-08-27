@@ -40,7 +40,7 @@ $(document).ready(function(){
     });
 
     $('#search').hideseek({
-        hidden_mode: true
+        hidden_mode: true,
         ignore: '.selected'
     });
 });
