@@ -98,6 +98,10 @@ h2 {
         padding: 4px;
         margin: 4px;
         border-radius: 50px;
+        cursor: pointer;
+    }
+    .selected {
+        background-color: #a5d6a7 !important;
     }
     .character {
         background-color: #90caf9;
