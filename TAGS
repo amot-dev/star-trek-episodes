@@ -5,8 +5,8 @@
 - character-argyle
 - character-ariksoong
 - character-azan
-- character-belannatorres
 - character-bareilantos
+- character-belannatorres
 - character-benjaminsisko
 - character-betor
 - character-beverlycrusher
@@ -157,10 +157,10 @@
 - mood-philosophical
 - mood-serious
 - planet-andor
-- planet-azatiprime (debated)
-- planet-baku
+- planet-azatiprime
 - planet-babel
 - planet-bajor
+- planet-bakus
 - planet-betazed
 - planet-cardassia
 - planet-cetialpha5
@@ -169,9 +169,8 @@
 - planet-genesis
 - planet-jupiter
 - planet-khitomer
-- planet-kronos
-- planet-nibiru (debated)
 - planet-ocampa
+- planet-qonos
 - planet-remus
 - planet-risa
 - planet-romulus
@@ -180,8 +179,8 @@
 - species-8472
 - species-aenar
 - species-andorian
-- speices-baku
 - species-bajoran
+- speices-baku
 - species-benzite
 - species-betazoid
 - species-bolian
@@ -189,48 +188,39 @@
 - species-breen
 - species-cardassian
 - species-changeling
-- species-coridan
 - species-denobulan
 - species-devore
 - species-elaurian
-- speices-enolian (debated)
 - species-ferengi
 - species-gorn
 - species-hirogen
 - species-human
-- species-iconian (debated)
 - species-jemhadar
 - species-kazon
 - species-klingon
-- species-kobheerian (debated)
 - species-kreetassan
 - species-krenim
-- species-kressari (debated)
 - species-ktarian
 - species-lethean
 - species-malon
 - species-markalian
-- species-nacene (debated)
 - species-nausicaan
-- species-nibiran (debated)
 - species-ocampa
 - species-organian
 - species-orion
 - species-pakled
-- species-peliarzel (debated)
 - species-reman
 - species-risian
 - species-romulan
 - species-sheliak
 - speices-sona
 - species-suliban
-- species-talarian (debated)
 - species-talaxian
 - species-tellarite
 - speices-tholian
 - species-trill
 - species-tzenkethi
-- species vidiian
+- species-vidiian
 - species-vorta
 - species-vulcan
 - species-xindi-any
@@ -240,22 +230,22 @@
 - species-xindiprimate
 - species-xindireptilian
 - species-yridian
-- ship-bortas
-- ship-defiant
-- ship-enterprise
-- ship-enterprise-alt
-- ship-enterprise-a
-- ship-enterprise-a-alt
-- ship-enterprise-b
-- ship-enterprise-c
-- ship-enterprise-d
-- ship-enterprise-e
-- ship-enterprise-j
 - ship-enterprise-nx
-- ship-excelsior
-- ship-franklin-alt
+- ship-iks-bortas
 - ship-kronosone
 - ship-kumari
 - ship-narada
 - ship-scimitar
-- ship-voyager
+- ship-uss-defiant
+- ship-uss-enterprise
+- ship-uss-enterprise-alt
+- ship-uss-enterprise-a
+- ship-uss-enterprise-a-alt
+- ship-uss-enterprise-b
+- ship-uss-enterprise-c
+- ship-uss-enterprise-d
+- ship-uss-enterprise-e
+- ship-uss-enterprise-j
+- ship-uss-excelsior
+- ship-uss-franklin-alt
+- ship-uss-voyager
