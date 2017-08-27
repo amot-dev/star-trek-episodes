@@ -40,14 +40,14 @@ body {font-family: $body-font-family;}
 
 /* Breakpoints */
 html {font-size: $size-small;}
-h2, .episode {
+h2, #search, .tag-list, .episode {
     margin: auto;
     width: 100%;
 }
 
 @media only screen and (min-width: $break-medium) {
     html {font-size: $size-medium;}
-    h2, .episode {
+    h2, #search, .tag-list, .episode {
     width: 75%;
     }
 }

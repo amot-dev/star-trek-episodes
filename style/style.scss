@@ -81,6 +81,17 @@ h2 {
     }
 }
 
+#search {
+    display: block;
+    line-height: 2rem;
+    padding: 4px;
+    margin: 8px auto !important;
+    font-size: 200%;
+    border-radius: 50px;
+    border: 2px solid $header-color;
+    box-sizing: border-box;
+}
+
 .tag-list {
     li {
         display: inline-block;

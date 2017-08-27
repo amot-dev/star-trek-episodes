@@ -24,5 +24,20 @@ $(document).ready(function(){
                 scrollTop: amount_to_scroll
             }, 500);
         }
-});
+    });
+
+    var tags_to_ignore = [];
+    var tags_to_ignore_con;
+
+    function concat(object){
+        var value = '';
+        for (var prop in obj) {
+            value += obj[prop];
+        }
+        return value;
+    }
+
+    $("#search").hideseek({
+        hidden_mode: true
+    });
 });
