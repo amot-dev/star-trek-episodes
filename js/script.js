@@ -26,18 +26,21 @@ $(document).ready(function(){
         }
     });
 
-    var tags_to_ignore = [];
-    var tags_to_ignore_con;
-
-    function concat(object){
-        var value = '';
-        for (var prop in obj) {
-            value += obj[prop];
+    $('.tag-list').children().click(function(){
+        if ($(this).hasClass('selected')) {
+            $(this).removeClass('selected');
+            var removingId = $(this).attr('id');
+            $('.'+removingId).show();
         }
-        return value;
-    }
+        else {
+            $(this).addClass('selected');
+            var addingId = $(this).attr('id');
+            $('.'+addingId).hide();
+        }
+    });
 
-    $("#search").hideseek({
+    $('#search').hideseek({
         hidden_mode: true
+        ignore: '.selected'
     });
 });
