@@ -25,9 +25,26 @@ h2 {
 
 .episode {
   background-color: #e6e6e6;
-  padding: 0.25rem; }
+  padding: 0.25rem;
+  overflow: hidden; }
   .episode:not(:last-child) {
     border-bottom: 4px solid white; }
+  .episode a {
+    display: block;
+    width: 15%;
+    margin: 4px 0;
+    float: right;
+    background-color: #bfbfbf;
+    color: #404040;
+    text-decoration: none;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 50px; }
+    .episode a:hover {
+      background-color: #8c8c8c;
+      color: #d9d9d9;
+      -webkit-transition: background-color 0.5s, color 0.5s;
+      transition: background-color 0.5s, color 0.5s; }
 
 #series-nav, #season-nav {
   background-color: #595959;

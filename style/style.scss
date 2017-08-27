@@ -41,8 +41,27 @@ h2 {
 .episode {
     background-color: $text-background;
     padding: 0.25rem;
+    overflow: hidden;
     &:not(:last-child) {
         border-bottom: 4px solid white;
+    }
+    a {
+        display: block;
+        width: 15%;
+        margin: 4px 0;
+        float: right;
+        background-color: $h2-background;
+        color: $header-color;
+        text-decoration: none;
+        text-align: center;
+        font-weight: bold;
+        border-radius: 50px;
+        &:hover {
+            background-color: darken($h2-background, 20%);
+            color: lighten($header-color, 60%);
+            -webkit-transition: background-color 0.5s, color 0.5s;
+            transition: background-color 0.5s, color 0.5s;
+        }
     }
 }
 
