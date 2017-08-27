@@ -236,6 +236,7 @@
 - ship-kumari
 - ship-narada
 - ship-scimitar
+<<<<<<< HEAD:TAGS
 - ship-uss-defiant
 - ship-uss-enterprise
 - ship-uss-enterprise-alt
@@ -249,3 +250,6 @@
 - ship-uss-excelsior
 - ship-uss-franklin-alt
 - ship-uss-voyager
+=======
+- ship-voyager
+>>>>>>> 7a39b05b69a04acc8a144c4894a2a6a42059478b:TAGS.md
