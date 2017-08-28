@@ -3,9 +3,9 @@ A list of all Star Trek episodes.
 
 When complete, this project will contain a list of all Star Trek episodes and movies. Each episode or movie will have:
 - A title
-- A description
+- An episode number
 - An image
-- One or multiple ratings from trusted critics and the public
+- A description
 - A link to the episode on Memory Alpha for a full summary
 - Tags for easier browsing of the episodes (I might need help on this one; it could be hard to watch 700+ episodes and add tags to them)
 
