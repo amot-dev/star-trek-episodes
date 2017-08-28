@@ -88,42 +88,6 @@ h1, h2, footer {
 h2 {
   background-color: #bfbfbf; }
 
-.episode {
-  background-color: #e6e6e6;
-  padding: 4px;
-  padding-top: 0;
-  overflow: hidden;
-  position: relative; }
-  .episode:not(:last-child) {
-    border-bottom: 4px solid white; }
-  .episode h3 {
-    padding-left: 8px; }
-  .episode img {
-    margin: 4px;
-    float: left; }
-  .episode .num, .episode a {
-    display: block;
-    width: 8%;
-    margin: 4px;
-    position: absolute;
-    top: 0;
-    left: 0;
-    background-color: #bfbfbf;
-    color: #404040;
-    text-align: center;
-    font-weight: bold;
-    border-radius: 50px; }
-  .episode a {
-    width: 15%;
-    left: auto;
-    right: 0;
-    text-decoration: none; }
-    .episode a:hover {
-      background-color: #8c8c8c;
-      color: #d9d9d9;
-      -webkit-transition: background-color 0.5s, color 0.5s;
-      transition: background-color 0.5s, color 0.5s; }
-
 #series-nav, #season-nav {
   background-color: #595959;
   list-style: none; }
@@ -175,3 +139,39 @@ h2 {
   background-color: #fff59d; }
 .tag-list .ship {
   background-color: #ffab91; }
+
+.episode {
+  background-color: #e6e6e6;
+  padding: 4px;
+  padding-top: 0;
+  overflow: hidden;
+  position: relative; }
+  .episode:not(:last-child) {
+    border-bottom: 4px solid white; }
+  .episode h3 {
+    padding-left: 8px; }
+  .episode img {
+    margin: 4px;
+    float: left; }
+  .episode .num, .episode a {
+    display: block;
+    width: 8%;
+    margin: 4px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #bfbfbf;
+    color: #404040;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 50px; }
+  .episode a {
+    width: 15%;
+    left: auto;
+    right: 0;
+    text-decoration: none; }
+    .episode a:hover {
+      background-color: #8c8c8c;
+      color: #d9d9d9;
+      -webkit-transition: background-color 0.5s, color 0.5s;
+      transition: background-color 0.5s, color 0.5s; }

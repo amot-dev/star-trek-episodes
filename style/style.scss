@@ -42,49 +42,6 @@ h2 {
     background-color: $h2-background;
 }
 
-.episode {
-    background-color: $text-background;
-    padding: 4px;
-    padding-top: 0;
-    overflow: hidden;
-    position: relative;
-    &:not(:last-child) {
-        border-bottom: $standard-margin solid white;
-    }
-    h3 {
-        padding-left: $standard-margin * 2;
-    }
-    img {
-        margin: $standard-margin;
-        float: left;
-    }
-    .num, a {
-        display: block;
-        width: 8%;
-        margin: $standard-margin;
-        position: absolute;
-        top: 0;
-        left: 0;
-        background-color: $h2-background;
-        color: $header-color;
-        text-align: center;
-        font-weight: bold;
-        border-radius: 50px;
-    }
-    a {
-        width: 15%;
-        left: auto;
-        right: 0;
-        text-decoration: none;
-        &:hover {
-            background-color: darken($h2-background, 20%);
-            color: lighten($header-color, 60%);
-            -webkit-transition: background-color 0.5s, color 0.5s;
-            transition: background-color 0.5s, color 0.5s;
-        }
-    }
-}
-
 #series-nav, #season-nav {
     background-color: $nav-background;
     list-style: none;
@@ -156,5 +113,48 @@ h2 {
     }
     .ship {
         background-color: #ffab91;
+    }
+}
+
+.episode {
+    background-color: $text-background;
+    padding: 4px;
+    padding-top: 0;
+    overflow: hidden;
+    position: relative;
+    &:not(:last-child) {
+        border-bottom: $standard-margin solid white;
+    }
+    h3 {
+        padding-left: $standard-margin * 2;
+    }
+    img {
+        margin: $standard-margin;
+        float: left;
+    }
+    .num, a {
+        display: block;
+        width: 8%;
+        margin: $standard-margin;
+        position: absolute;
+        top: 0;
+        left: 0;
+        background-color: $h2-background;
+        color: $header-color;
+        text-align: center;
+        font-weight: bold;
+        border-radius: 50px;
+    }
+    a {
+        width: 15%;
+        left: auto;
+        right: 0;
+        text-decoration: none;
+        &:hover {
+            background-color: darken($h2-background, 20%);
+            color: lighten($header-color, 60%);
+            -webkit-transition: background-color 0.5s, color 0.5s;
+            transition: background-color 0.5s, color 0.5s;
+        }
     }
 }
