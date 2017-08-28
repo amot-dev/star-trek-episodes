@@ -1,4 +1,69 @@
 /* Variables */
+/* VARIABLES */
+/* Break Points */
+/* Fontfaces */
+/* Font Sizes */
+/* Header Sizes */
+/* Image Width */
+/* DEFAULTS */
+/* Margins and Paddings */
+* {
+  margin: 0rem;
+  padding: 0rem; }
+
+/* Fontfaces */
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Roboto Slab", serif; }
+
+body {
+  font-family: "Roboto", sans-serif; }
+
+/* Breakpoints */
+html {
+  font-size: 32px; }
+
+h2, #search, .tag-list, .episode {
+  margin: auto;
+  width: 100%; }
+
+.episode h3 {
+  margin-left: 40%; }
+.episode img {
+  width: 40%; }
+
+@media only screen and (min-width: 992px) {
+  html {
+    font-size: 20px; }
+
+  h2, #search, .tag-list, .episode {
+    width: 75%; } }
+@media only screen and (min-width: 1200px) {
+  html {
+    font-size: 16px; }
+
+  .episode h3 {
+    margin-left: 20%; }
+  .episode img {
+    width: 20%; } }
+/* Header Sizes */
+h1 {
+  font-size: 2.3rem; }
+
+h2 {
+  font-size: 1.9rem; }
+
+h3 {
+  font-size: 1.3rem; }
+
+h4 {
+  font-size: 1rem; }
+
+h5 {
+  font-size: 0.8rem; }
+
+h6 {
+  font-size: 0.6rem; }
+
 * {
   padding: 0;
   margin: 0; }
@@ -25,15 +90,25 @@ h2 {
 
 .episode {
   background-color: #e6e6e6;
-  padding: 0.25rem;
-  overflow: hidden; }
+  padding: 4px;
+  padding-bottom: 2rem;
+  overflow: hidden;
+  position: relative; }
   .episode:not(:last-child) {
     border-bottom: 4px solid white; }
+  .episode h3 {
+    padding-left: 8px; }
+  .episode img {
+    margin: 4px;
+    margin-top: -2.3rem;
+    float: left; }
   .episode a {
     display: block;
     width: 15%;
     margin: 4px 0;
-    float: right;
+    position: absolute;
+    bottom: 0;
+    right: 0;
     background-color: #bfbfbf;
     color: #404040;
     text-decoration: none;

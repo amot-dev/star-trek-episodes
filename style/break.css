@@ -3,6 +3,7 @@
 /* Fontfaces */
 /* Font Sizes */
 /* Header Sizes */
+/* Image Width */
 /* DEFAULTS */
 /* Margins and Paddings */
 * {
@@ -24,6 +25,11 @@ h2, #search, .tag-list, .episode {
   margin: auto;
   width: 100%; }
 
+.episode h3 {
+  margin-left: 40%; }
+.episode img {
+  width: 40%; }
+
 @media only screen and (min-width: 992px) {
   html {
     font-size: 20px; }
@@ -32,7 +38,12 @@ h2, #search, .tag-list, .episode {
     width: 75%; } }
 @media only screen and (min-width: 1200px) {
   html {
-    font-size: 16px; } }
+    font-size: 16px; }
+
+  .episode h3 {
+    margin-left: 20%; }
+  .episode img {
+    width: 20%; } }
 /* Header Sizes */
 h1 {
   font-size: 2.3rem; }

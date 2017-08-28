@@ -25,6 +25,9 @@ $h4-size: 1rem;
 $h5-size: 0.8rem;
 $h6-size: 0.6rem;
 
+/* Image Width */
+$image-width: 20%;
+
 
 /* DEFAULTS */
 
@@ -44,16 +47,32 @@ h2, #search, .tag-list, .episode {
     margin: auto;
     width: 100%;
 }
+.episode {
+    h3 {
+        margin-left: $image-width * 2;
+    }
+    img {
+        width: $image-width * 2;
+    }
+}
 
 @media only screen and (min-width: $break-medium) {
     html {font-size: $size-medium;}
     h2, #search, .tag-list, .episode {
-    width: 75%;
+        width: 75%;
     }
 }
 
 @media only screen and (min-width: $break-large) {
     html {font-size: $size-large;}
+    .episode {
+    h3 {
+        margin-left: $image-width;
+    }
+    img {
+        width: $image-width;
+    }
+}
 }
 
 /* Header Sizes */
