@@ -91,7 +91,7 @@ h2 {
 .episode {
   background-color: #e6e6e6;
   padding: 4px;
-  padding-bottom: 2rem;
+  padding-top: 0;
   overflow: hidden;
   position: relative; }
   .episode:not(:last-child) {
@@ -100,14 +100,13 @@ h2 {
     padding-left: 8px; }
   .episode img {
     margin: 4px;
-    margin-top: -2.3rem;
     float: left; }
   .episode .num, .episode a {
     display: block;
     width: 8%;
     margin: 4px;
     position: absolute;
-    bottom: 0;
+    top: 0;
     left: 0;
     background-color: #bfbfbf;
     color: #404040;
