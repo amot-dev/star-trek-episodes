@@ -33,13 +33,17 @@ $(document).ready(function(){
     $('.tag-list').children().click(function(){
         if ($(this).hasClass('selected')) {
             $(this).removeClass('selected');
+            /*
             var removingId = $(this).attr('id');
             $('.'+removingId).show();
+            */
         }
         else {
             $(this).addClass('selected');
+            /*
             var addingId = $(this).attr('id');
             $('.'+addingId).hide();
+            */
         }
     });
 
