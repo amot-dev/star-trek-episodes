@@ -59,19 +59,24 @@ h2 {
         margin-top: -$h1-size;
         float: left;
     }
-    a {
+    .num, a {
         display: block;
-        width: 15%;
-        margin: $standard-margin 0;
+        width: 8%;
+        margin: $standard-margin;
         position: absolute;
         bottom: 0;
-        right: 0;
+        left: 0;
         background-color: $h2-background;
         color: $header-color;
-        text-decoration: none;
         text-align: center;
         font-weight: bold;
         border-radius: 50px;
+    }
+    a {
+        width: 15%;
+        left: auto;
+        right: 0;
+        text-decoration: none;
         &:hover {
             background-color: darken($h2-background, 20%);
             color: lighten($header-color, 60%);

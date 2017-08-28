@@ -102,19 +102,23 @@ h2 {
     margin: 4px;
     margin-top: -2.3rem;
     float: left; }
-  .episode a {
+  .episode .num, .episode a {
     display: block;
-    width: 15%;
-    margin: 4px 0;
+    width: 8%;
+    margin: 4px;
     position: absolute;
     bottom: 0;
-    right: 0;
+    left: 0;
     background-color: #bfbfbf;
     color: #404040;
-    text-decoration: none;
     text-align: center;
     font-weight: bold;
     border-radius: 50px; }
+  .episode a {
+    width: 15%;
+    left: auto;
+    right: 0;
+    text-decoration: none; }
     .episode a:hover {
       background-color: #8c8c8c;
       color: #d9d9d9;
