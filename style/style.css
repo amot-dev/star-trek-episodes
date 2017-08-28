@@ -15,7 +15,7 @@
 h1, h2, h3, h4, h5, h6 {
   font-family: "Roboto Slab", serif; }
 
-body {
+body, h3 {
   font-family: "Roboto", sans-serif; }
 
 /* Breakpoints */
@@ -143,7 +143,6 @@ h2 {
 .episode {
   background-color: #e6e6e6;
   padding: 4px;
-  padding-top: 0;
   overflow: hidden;
   position: relative; }
   .episode:not(:last-child) {
