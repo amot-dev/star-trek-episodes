@@ -138,7 +138,6 @@ h2 {
         color: $header-color;
         text-align: center;
         font-weight: bold;
-        xfont-size: $h3-size;
         font-family: $monospace-font-family;
         border-radius: 50px;
     }
@@ -159,9 +158,6 @@ h2 {
             color: lighten($header-color, 60%);
             -webkit-transition: background-color 0.5s, color 0.5s;
             transition: background-color 0.5s, color 0.5s;
-        }
-        &::before {
-            content: 'Wiki';
         }
     }
 }

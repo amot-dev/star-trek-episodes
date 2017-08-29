@@ -15,7 +15,7 @@
 h1, h2, h3, h4, h5, h6 {
   font-family: "Roboto Slab", serif; }
 
-body, h3 {
+body {
   font-family: "Roboto", sans-serif; }
 
 /* Breakpoints */
@@ -23,6 +23,7 @@ html {
   font-size: 32px; }
 
 h2, #search, .tag-list, .episode {
+  margin: auto;
   width: 100%; }
 
 .episode h3 {
@@ -35,7 +36,6 @@ h2, #search, .tag-list, .episode {
     font-size: 20px; }
 
   h2, #search, .tag-list, .episode {
-    margin: auto;
     width: 75%; } }
 @media only screen and (min-width: 1200px) {
   html {
@@ -165,7 +165,6 @@ h2 {
     color: white;
     text-align: center;
     font-weight: bold;
-    xfont-size: 1.3rem;
     font-family: "Roboto Mono", monospace;
     border-radius: 50px; }
   .episode h3 {
@@ -184,8 +183,6 @@ h2 {
       color: white;
       -webkit-transition: background-color 0.5s, color 0.5s;
       transition: background-color 0.5s, color 0.5s; }
-    .episode a::before {
-      content: 'Wiki'; }
 
 .longTitle {
   padding-top: 3.5rem; }

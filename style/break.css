@@ -14,7 +14,7 @@
 h1, h2, h3, h4, h5, h6 {
   font-family: "Roboto Slab", serif; }
 
-body, h3 {
+body {
   font-family: "Roboto", sans-serif; }
 
 /* Breakpoints */
@@ -22,6 +22,7 @@ html {
   font-size: 32px; }
 
 h2, #search, .tag-list, .episode {
+  margin: auto;
   width: 100%; }
 
 .episode h3 {
@@ -34,7 +35,6 @@ h2, #search, .tag-list, .episode {
     font-size: 20px; }
 
   h2, #search, .tag-list, .episode {
-    margin: auto;
     width: 75%; } }
 @media only screen and (min-width: 1200px) {
   html {
