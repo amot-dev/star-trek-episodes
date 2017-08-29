@@ -7,8 +7,8 @@
 /* DEFAULTS */
 /* Margins and Paddings */
 * {
-  margin: 0rem;
-  padding: 0rem; }
+  margin: 0;
+  padding: 0; }
 
 /* Fontfaces */
 h1, h2, h3, h4, h5, h6 {
@@ -22,7 +22,6 @@ html {
   font-size: 32px; }
 
 h2, #search, .tag-list, .episode {
-  margin: auto;
   width: 100%; }
 
 .episode h3 {
@@ -35,6 +34,7 @@ h2, #search, .tag-list, .episode {
     font-size: 20px; }
 
   h2, #search, .tag-list, .episode {
+    margin: auto;
     width: 75%; } }
 @media only screen and (min-width: 1200px) {
   html {

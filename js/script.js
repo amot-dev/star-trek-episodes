@@ -36,17 +36,8 @@ $(document).ready(function(){
     })
     function setTitleHeight() {
         $('h3').each(function() {
-            if ($(this).outerHeight(true) > $(this).next().outerHeight(true)) {
-                if ($(this).outerHeight(true) > ($(this).next().outerHeight(true) * 2)) {
-                    $(this).parent().addClass('longTitle2');
-                }
-                else {
-                    $(this).parent().addClass('longTitle');
-                }
-            }
-            else {
-                $(this).parent().removeClass('longTitle');
-            }
+            //set padding at top of episode to height of title + $standard-margin
+            $(this).parent().css('padding-top', ($(this).outerHeight(true) + 4));
         });
     };
 
