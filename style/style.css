@@ -152,7 +152,7 @@ h2 {
   overflow: hidden;
   position: relative; }
   .episode:not(:last-child) {
-    border-bottom: 4px solid white; }
+    border-bottom: 4px solid #90a4ae; }
   .episode img {
     margin: 4px;
     float: left; }
@@ -190,3 +190,6 @@ h2 {
 
 .longTitle {
   padding-top: 3.5rem; }
+
+.longTitle2 {
+  padding-top: 5rem; }
