@@ -179,6 +179,8 @@ h2 {
       color: #d9d9d9;
       -webkit-transition: background-color 0.5s, color 0.5s;
       transition: background-color 0.5s, color 0.5s; }
+    .episode a::before {
+      content: 'Wiki'; }
 
 .longTitle {
   padding-top: 3.5rem; }

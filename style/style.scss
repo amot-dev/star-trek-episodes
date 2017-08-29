@@ -160,6 +160,9 @@ h2 {
             -webkit-transition: background-color 0.5s, color 0.5s;
             transition: background-color 0.5s, color 0.5s;
         }
+        &::before {
+            content: 'Wiki';
+        }
     }
 }
 .longTitle {
