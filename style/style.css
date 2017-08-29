@@ -144,18 +144,17 @@ h2 {
 .episode {
   background-color: #e6e6e6;
   padding: 4px;
+  padding-top: 2rem;
   overflow: hidden;
   position: relative; }
   .episode:not(:last-child) {
     border-bottom: 4px solid white; }
-  .episode h3 {
-    padding-left: 8px; }
   .episode img {
     margin: 4px;
     float: left; }
-  .episode .num, .episode a {
+  .episode h3, .episode .num, .episode a {
     display: block;
-    width: 8%;
+    width: 15%;
     margin: 4px;
     position: absolute;
     top: 0;
@@ -164,9 +163,14 @@ h2 {
     color: #404040;
     text-align: center;
     font-weight: bold;
+    font-size: 1.3rem;
+    font-family: "Roboto Mono", monospace;
     border-radius: 50px; }
+  .episode h3 {
+    width: 68%;
+    margin: 4px auto;
+    right: 0; }
   .episode a {
-    width: 15%;
     left: auto;
     right: 0;
     text-decoration: none; }
@@ -175,3 +179,6 @@ h2 {
       color: #d9d9d9;
       -webkit-transition: background-color 0.5s, color 0.5s;
       transition: background-color 0.5s, color 0.5s; }
+
+.longTitle {
+  padding-top: 3.5rem; }

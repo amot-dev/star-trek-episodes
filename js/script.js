@@ -30,6 +30,21 @@ $(document).ready(function(){
         }
     });
 
+    setTitleHeight();
+    $(window).resize(function() {
+        setTitleHeight();
+    })
+    function setTitleHeight() {
+        $('h3').each(function() {
+            if ($(this).outerHeight(true) > $(this).next().outerHeight(true)) {
+                $(this).parent().addClass('longTitle');
+            }
+            else {
+                $(this).parent().removeClass('longTitle');
+            }
+        });
+    };
+
     $('.tag-list').children().click(function(){
         if ($(this).hasClass('selected')) {
             $(this).removeClass('selected');

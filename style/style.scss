@@ -120,21 +120,19 @@ h2 {
 .episode {
     background-color: $text-background;
     padding: 4px;
+    padding-top: 2rem;
     overflow: hidden;
     position: relative;
     &:not(:last-child) {
         border-bottom: $standard-margin solid white;
     }
-    h3 {
-        padding-left: $standard-margin * 2;
-    }
     img {
         margin: $standard-margin;
         float: left;
     }
-    .num, a {
+    h3, .num, a {
         display: block;
-        width: 8%;
+        width: 15%;
         margin: $standard-margin;
         position: absolute;
         top: 0;
@@ -143,10 +141,16 @@ h2 {
         color: $header-color;
         text-align: center;
         font-weight: bold;
+        font-size: $h3-size;
+        font-family: $monospace-font-family;
         border-radius: 50px;
     }
+    h3 {
+        width: 68%;
+        margin: 4px auto;
+        right: 0;
+    }
     a {
-        width: 15%;
         left: auto;
         right: 0;
         text-decoration: none;
@@ -157,4 +161,7 @@ h2 {
             transition: background-color 0.5s, color 0.5s;
         }
     }
+}
+.longTitle {
+    padding-top: 3.5rem;
 }
