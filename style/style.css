@@ -22,28 +22,24 @@ body {
 html {
   font-size: 32px; }
 
-h2, #search, .tag-list, .episode {
+h2, #search, .tag-list, .episode, .about {
   margin: auto;
   width: 100%; }
 
-.episode h3 {
-  margin-left: 40%; }
-.episode img {
+.episode img, .about img {
   width: 40%; }
 
 @media only screen and (min-width: 992px) {
   html {
     font-size: 20px; }
 
-  h2, #search, .tag-list, .episode {
+  h2, #search, .tag-list, .episode, .about {
     width: 75%; } }
 @media only screen and (min-width: 1200px) {
   html {
     font-size: 16px; }
 
-  .episode h3 {
-    margin-left: 20%; }
-  .episode img {
+  .episode img, .about img {
     width: 20%; } }
 /* Header Sizes */
 h1 {
@@ -141,20 +137,20 @@ h2 {
 .tag-list .ship {
   background-color: #ffab91; }
 
-.episode {
+.episode, .about {
   background-color: #ede7f6;
   padding: 4px;
   padding-top: 2rem;
   overflow: hidden;
   position: relative; }
-  .episode:not(:last-child) {
+  .episode:not(:last-child), .about:not(:last-child) {
     border-bottom: 4px solid #90a4ae; }
-  .episode img {
+  .episode img, .about img {
     margin: 4px;
     float: left; }
-  .episode .description {
+  .episode .description, .about .description {
     overflow: hidden; }
-  .episode h3, .episode .num, .episode a {
+  .episode h3, .episode .num, .episode a, .about h3, .about .num, .about a {
     display: block;
     width: 15%;
     margin: 4px;
@@ -167,18 +163,18 @@ h2 {
     font-weight: bold;
     font-family: "Roboto Mono", monospace;
     border-radius: 50px; }
-  .episode h3 {
+  .episode h3, .about h3 {
     background-color: #ffc107;
     width: 68%;
     margin: 4px auto;
     padding: 4px;
     right: 0; }
-  .episode a {
+  .episode a, .about a {
     background-color: #2196f3;
     left: auto;
     right: 0;
     text-decoration: none; }
-    .episode a:hover {
+    .episode a:hover, .about a:hover {
       background-color: #0c7cd5;
       color: white;
       -webkit-transition: background-color 0.5s, color 0.5s;

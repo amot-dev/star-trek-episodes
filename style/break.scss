@@ -43,14 +43,11 @@ body {font-family: $body-font-family;}
 
 /* Breakpoints */
 html {font-size: $size-small;}
-h2, #search, .tag-list, .episode {
+h2, #search, .tag-list, .episode, .about {
     margin: auto;
     width: 100%;
 }
-.episode {
-    h3 {
-        margin-left: $image-width * 2;
-    }
+.episode, .about {
     img {
         width: $image-width * 2;
     }
@@ -58,21 +55,18 @@ h2, #search, .tag-list, .episode {
 
 @media only screen and (min-width: $break-medium) {
     html {font-size: $size-medium;}
-    h2, #search, .tag-list, .episode {
+    h2, #search, .tag-list, .episode, .about {
         width: 75%;
     }
 }
 
 @media only screen and (min-width: $break-large) {
     html {font-size: $size-large;}
-    .episode {
-    h3 {
-        margin-left: $image-width;
+    .episode, .about {
+        img {
+            width: $image-width;
+        }
     }
-    img {
-        width: $image-width;
-    }
-}
 }
 
 /* Header Sizes */
