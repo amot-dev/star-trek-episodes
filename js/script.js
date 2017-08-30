@@ -17,11 +17,11 @@ $(document).ready(function(){
 
             if ($('#season-nav').hasClass('sticky')) {
                 //scroll down to element while taking in account the height of season nav
-                var amount_to_scroll = $( $.attr(this, 'href') ).offset().top - $('#season-nav').outerHeight(true)
+                var amount_to_scroll = $( $.attr(this, 'href') ).offset().top - $('#season-nav').outerHeight(true) + 1;
             }
             else {
                 //I've waited too long to comment and I seem to have forgotten what this does. Oh well.
-                var amount_to_scroll = $( $.attr(this, 'href') ).offset().top - $('#season-nav').outerHeight(true) - $('#season-nav').outerHeight(true)
+                var amount_to_scroll = $( $.attr(this, 'href') ).offset().top - $('#season-nav').outerHeight(true) - $('#season-nav').outerHeight(true) + 1;
             }
 
             $('html, body').animate({
