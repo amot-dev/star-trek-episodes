@@ -42,20 +42,32 @@ $(document).ready(function(){
     };
 
     $('.tag-list').children().click(function(){
-        if ($(this).hasClass('selected')) {
-            $(this).removeClass('selected');
-            /*
-            var removingId = $(this).attr('id');
-            $('.'+removingId).show();
-            */
+
+        if ($(this).hasClass('selected')) {$(this).removeClass('selected');}
+        else {$(this).addClass('selected');}
+
+        //add all selected tags to an array
+        var shown_tags = [];
+        $('.selected').each(function() {
+            var selected_ID = $(this).attr('id');
+            shown_tags.push(selected_ID);
+        });
+
+        if (shown_tags.length) {
+            //turn selected tags into jQuery selector
+            var shown_tags_concocted
+            for (var i = 0; i < shown_tags.length; i++) {
+                shown_tags_concocted = '.' + shown_tags[i];
+            }
+
+            //show only selected episodes
+            $('.episode').hide();
+            $(shown_tags_concocted).show();
         }
         else {
-            $(this).addClass('selected');
-            /*
-            var addingId = $(this).attr('id');
-            $('.'+addingId).hide();
-            */
+            $('.episode').show();
         }
+        
     });
 
     $('#search').hideseek({
