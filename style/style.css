@@ -184,8 +184,5 @@ h2 {
       -webkit-transition: background-color 0.5s, color 0.5s;
       transition: background-color 0.5s, color 0.5s; }
 
-.longTitle {
-  padding-top: 3.5rem; }
-
-.longTitle2 {
-  padding-top: 5rem; }
+footer {
+  font-weight: bold; }
