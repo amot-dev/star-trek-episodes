@@ -55,6 +55,7 @@ $(document).ready(function(){
             var shown_tags = [];
             $('.selected').each(function() {
                 var selected_ID = $(this).attr('id');
+                console.log(selected_ID);
                 shown_tags.push(selected_ID);
             });
 
@@ -62,11 +63,11 @@ $(document).ready(function(){
             if (shown_tags.length) {
 
                 //turn selected tags into jQuery selector
-                var shown_tags_concocted
+                var shown_tags_concocted = '';
                 for (var i = 0; i < shown_tags.length; i++) {
-                    shown_tags_concocted = '.' + shown_tags[i];
+                    shown_tags_concocted += '.' + shown_tags[i];
                 }
-
+                
                 //show only selected episodes
                 $('.episode').hide();
                 $(shown_tags_concocted).show();
