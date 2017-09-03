@@ -126,16 +126,14 @@ h2 {
   cursor: pointer; }
 .tag-list .selected {
   background-color: #a5d6a7 !important; }
+.tag-list .removed {
+  background-color: #ef9a9a !important; }
 .tag-list .character {
   background-color: #90caf9; }
-.tag-list .mood {
-  background-color: #ef9a9a; }
 .tag-list .planet {
   background-color: #b39ddb; }
 .tag-list .species {
   background-color: #fff59d; }
-.tag-list .ship {
-  background-color: #ffab91; }
 
 .episode, .about {
   background-color: #ede7f6;
