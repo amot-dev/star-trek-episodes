@@ -80,6 +80,7 @@
 - character-kurn
 - character-leahbrahms
 - character-leeta
+- character-leslie
 - character-leonardmccoy
 - character-leonardmccoy-alt
 - character-lewiszimmerman
@@ -191,7 +192,6 @@
 - species-ferengi
 - species-gorn
 - species-hirogen
-- species-human
 - species-jemhadar
 - species-kazon
 - species-klingon
