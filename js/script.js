@@ -47,37 +47,31 @@ $(document).ready(function(){
         //on selecting a tag
         $('.tag-list').children().click(function(){
 
+            //remove the removed class if it exists
+            if ($(this).hasClass('removed')) {$(this).removeClass('removed');}
+
             //add and remove selected class
             if ($(this).hasClass('selected')) {$(this).removeClass('selected');}
             else {$(this).addClass('selected');}
 
-            //add all selected tags to an array
-            var shown_tags = [];
-            $('.selected').each(function() {
-                var selected_ID = $(this).attr('id');
-                console.log(selected_ID);
-                shown_tags.push(selected_ID);
-            });
+            setShownTags();
 
-            //exec if array isn't empty
-            if (shown_tags.length) {
+        });
 
-                //turn selected tags into jQuery selector
-                var shown_tags_concocted = '';
-                for (var i = 0; i < shown_tags.length; i++) {
-                    shown_tags_concocted += '.' + shown_tags[i];
-                }
-                
-                //show only selected episodes
-                $('.episode').hide();
-                $(shown_tags_concocted).show();
-            }
+        //on removing a tag
+        $('.tag-list').children().contextmenu(function(event){
 
-            //if array is empty
-            else {
-                $('.episode').show();
-            }
-        
+            event.preventDefault();
+
+            //remove the selected class if it exists
+            if ($(this).hasClass('selected')) {$(this).removeClass('selected');}
+
+            //add and remove removed class
+            if ($(this).hasClass('removed')) {$(this).removeClass('removed');}
+            else {$(this).addClass('removed');}
+
+            setShownTags();
+
         });
 
     }
@@ -93,3 +87,52 @@ $(document).ready(function(){
     }).resize();
     
 });
+
+function setShownTags() {
+
+    //add all selected and removed tags to arrays
+    var shown_tags = addToArray('.selected');
+    var removed_tags = addToArray('.removed');
+
+    //exec if an array isn't empty
+    if (shown_tags.length || removed_tags.length) {
+
+        //convert tag arrays to strings
+        var shown_tags_concocted = classArrayToString(shown_tags);
+        var removed_tags_concocted = classArrayToString(removed_tags);
+                
+        //show only selected episodes
+        if (shown_tags.length) {
+            $('.episode').hide();
+            $(shown_tags_concocted).show();
+        }
+
+        //hide removed episodes
+        if (removed_tags.length) {
+            $(removed_tags_concocted).hide();
+        }
+    }
+
+    //if both arrays are empty
+    else {
+        $('.episode').show();
+    }
+        
+}
+
+function addToArray(element_to_ID) {
+    var temp_array = []
+    $(element_to_ID).each(function() {
+        var selected_ID = $(this).attr('id');
+        temp_array.push(selected_ID);
+    })
+    return temp_array;
+}
+
+function classArrayToString(arrayToConvert) {
+    var temp_string = '';
+    for (var i = 0; i < arrayToConvert.length; i++) {
+        temp_string += '.' + arrayToConvert[i];
+    }
+    return temp_string;
+}
