@@ -88,6 +88,7 @@ $(document).ready(function(){
     
 });
 
+//FUNCTIONS
 function setShownTags() {
 
     //add all selected and removed tags to arrays
@@ -117,6 +118,18 @@ function setShownTags() {
     else {
         $('.episode').show();
     }
+
+    //hide season header if all children are hidden
+    $('.season').each(function() {
+
+        if ($(this).find('.episode').css('display') == 'none') {
+            $(this).find('h2').hide();
+        }
+        else {
+            $(this).find('h2').show();
+        }
+        
+    });
         
 }
 
