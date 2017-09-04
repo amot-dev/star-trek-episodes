@@ -107,6 +107,9 @@ function setShownTags() {
             $('.episode').hide();
             $(shown_tags_concocted).show();
         }
+        else {
+            $('.episode').show();
+        }
 
         //hide removed episodes
         if (removed_tags.length) {
