@@ -141,8 +141,8 @@ h2 {
   padding-top: 2rem;
   overflow: hidden;
   position: relative; }
-  .episode:not(:last-child), .about:not(:last-child) {
-    border-bottom: 4px solid #90a4ae; }
+  .episode:not(:first-child), .about:not(:first-child) {
+    border-top: 4px solid #90a4ae; }
   .episode img, .about img {
     margin: 4px;
     float: left; }

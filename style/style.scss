@@ -114,8 +114,8 @@ h2 {
     padding-top: 2rem;
     overflow: hidden;
     position: relative;
-    &:not(:last-child) {
-        border-bottom: $standard-margin solid $h2-background;
+    &:not(:first-child) {
+        border-top: $standard-margin solid $h2-background;
     }
     img {
         margin: $standard-margin;
