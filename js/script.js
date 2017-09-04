@@ -41,7 +41,7 @@ $(document).ready(function(){
         //init hideseek
         $('#search').hideseek({
             hidden_mode: true,
-            ignore: '.selected'
+            ignore: '.selected, .removed'
         });
 
         //on selecting a tag
