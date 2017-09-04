@@ -122,7 +122,16 @@ function setShownTags() {
     //hide season header if all children are hidden
     $('.season').each(function() {
 
-        if ($(this).find('.episode').css('display') == 'none') {
+        //count episdes shown
+        var episodes_shown = 0;
+        $(this).find('.episode').each(function() {
+            if ($(this).css('display') != 'none') {
+                episodes_shown += 1;
+            }
+        })
+
+        //hide header if no episodes are shown
+        if (episodes_shown == 0) {
             $(this).find('h2').hide();
         }
         else {
