@@ -1,4 +1,4 @@
-$(document).ready(function(){
+    $(document).ready(function(){
 
     //SEASON NAV CODE
     if ($('#season-nav').length) {
@@ -44,31 +44,19 @@ $(document).ready(function(){
             ignore: '.selected, .removed'
         });
 
-        //on selecting a tag
+        //on clicking a tag
         $('.tag-list').children().click(function(){
 
-            //remove the removed class if it exists
-            if ($(this).hasClass('removed')) {$(this).removeClass('removed');}
-
-            //add and remove selected class
-            if ($(this).hasClass('selected')) {$(this).removeClass('selected');}
-            else {$(this).addClass('selected');}
-
-            setShownTags();
-
-        });
-
-        //on removing a tag
-        $('.tag-list').children().contextmenu(function(event){
-
-            event.preventDefault();
-
-            //remove the selected class if it exists
-            if ($(this).hasClass('selected')) {$(this).removeClass('selected');}
-
-            //add and remove removed class
-            if ($(this).hasClass('removed')) {$(this).removeClass('removed');}
-            else {$(this).addClass('removed');}
+            //go through different states
+            if ($(this).hasClass('selected')) {
+                $(this).removeClass('selected').addClass('removed');
+            }
+            else if ($(this).hasClass('removed')) {
+                $(this).removeClass('removed');
+            }
+            else {
+                $(this).addClass('selected');
+            }
 
             setShownTags();
 
