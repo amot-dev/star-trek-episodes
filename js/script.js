@@ -44,6 +44,16 @@
             ignore: '.selected, .removed'
         });
 
+        //hide irrelevant tags
+        /*
+        $('.tag-list').children().each(function() {
+            var current_tag = $(this).attr('id');
+            if (!$('.' + current_tag).length) {
+                $(this).hide();
+            }
+        });
+        */
+
         //on clicking a tag
         $('.tag-list').children().click(function(){
 
