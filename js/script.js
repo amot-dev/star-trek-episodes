@@ -40,7 +40,7 @@
 
         //init hideseek
         $('#search').hideseek({
-            hidden_mode: true,
+            //hidden_mode: true,
             ignore: '.selected, .removed'
         });
 
