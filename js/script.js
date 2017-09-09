@@ -44,15 +44,13 @@
             ignore: '.selected, .removed'
         });
 
-        //hide irrelevant tags
-        /*
+        //remove irrelevant tag buttons
         $('.tag-list').children().each(function() {
             var current_tag = $(this).attr('id');
             if (!$('.' + current_tag).length) {
-                $(this).hide();
+                $(this).remove();
             }
         });
-        */
 
         //on clicking a tag
         $('.tag-list').children().click(function(){
