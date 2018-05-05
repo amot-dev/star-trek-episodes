@@ -16,6 +16,9 @@ Don't use the 'feature' tag for this. That tag is reserved for features that wil
 - Finally, there is a link to the Memory Alpha page for the episode that opens in a new tab
 
 ## Tags
+**Some episodes might be missing tags! Don't hesitate to add them if you notice!**
+
+Tags are found at the beginning of all html files with episodes. I'm thinking of moving them all to an xml file though.
 When adding tags to episodes, there are some guidelines to follow:
 - Tags are to be added as additional classes to a `.episode` element
 - Tags must start with a prefix (character, species, mood, etc)
@@ -26,6 +29,3 @@ When adding tags to episodes, there are some guidelines to follow:
 - character: for a character that has appeared more than once (exception: important characters in movies)
 - planet: for a planet that has appeared more than once (exception: important planets in movies)
 - species: for a species that has appeared more than once and has more than one named member (exception: important species). To be used, there have to be multiple members of said species in the episode, excluding the main cast (eg. not all episodes with Spock will be mared Vulcan, nor all episodes with Worf marked Klingon)
-
-### Tags
-Tags are found at the beginning of all html files with episodes. I'm thinking of moving them all to an xml file though.
