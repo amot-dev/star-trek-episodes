@@ -28,4 +28,4 @@ When adding tags to episodes, there are some guidelines to follow:
 ### Prefixes
 - character: for a character that has appeared more than once (exception: important characters in movies)
 - planet: for a planet that has appeared more than once (exception: important planets in movies)
-- species: for a species that has appeared more than once and has more than one named member (exception: important species). To be used, there have to be multiple members of said species in the episode, excluding the main cast (eg. not all episodes with Spock will be mared Vulcan, nor all episodes with Worf marked Klingon)
+- species: for a species that has appeared more than once and has more than one named member (exception: important species). To be used, there have to be multiple members of said species in the episode, excluding the main cast (eg. not all episodes with Spock will be marked Vulcan, nor all episodes with Worf marked Klingon)
