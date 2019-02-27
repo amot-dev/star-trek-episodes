@@ -1,11 +1,13 @@
     $(document).ready(function(){
 
     //SEASON NAV CODE
+    //first check if the season nav menu exists
     if ($('#season-nav').length) {
 
         //save the original top offset of the season nav
         var season_nav_offset = $('#season-nav').offset().top;
         $(window).scroll(function(){
+            //if the user scrolled down the page, make the season nav sticky
             if ($(window).scrollTop() >= season_nav_offset) {
                 $('#season-nav').addClass('sticky');
             }
@@ -27,7 +29,8 @@
                     //I've waited too long to comment and I seem to have forgotten what this does. Oh well.
                     var amount_to_scroll = $( $.attr(this, 'href') ).offset().top - $('#season-nav').outerHeight(true) - $('#season-nav').outerHeight(true) + 1;
                 }
-
+                
+                //animate scrolling
                 $('html, body').animate({
                     scrollTop: amount_to_scroll
                 }, 500);
@@ -36,6 +39,7 @@
     };
 
     //TAG CODE
+    //check if tag list exists
     if ($('.tag-list').length) {
 
         //init hideseek
