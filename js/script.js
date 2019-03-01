@@ -1,5 +1,9 @@
     $(document).ready(function(){
 
+    if ($('#tag-list').length) {
+        $("#tag-list").load("tag-list.txt");
+    };
+        
     //SEASON NAV CODE
     if ($('#season-nav').length) {
 
