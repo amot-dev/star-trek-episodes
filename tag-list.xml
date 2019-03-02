@@ -42,6 +42,7 @@
 <li class="character" id="character-charlestucker">Charles "Trip" Tucker III</li>
 <li class="character" id="character-christinechapel">Christine Chapel</li>
 <li class="character" id="character-christinechapel-alt">Christine Chapel (Alt. Reality)</li>
+<li class="character" id="character-christopher-pike">Christopher Pike</li>
 <li class="character" id="character-culluh">Culluh</li>
 <li class="character" id="character-cyranojones">Cyrano Jones</li>
 <li class="character" id="character-damar">Damar</li>
@@ -195,6 +196,8 @@
 <li class="character" id="character-spot">Spot</li>
 <li class="species" id="species-suliban">Suliban</li>
 <li class="species" id="species-talaxian">Talaxian</li>
+<li class="planet" id="planet-talosiv">Talos IV</li>
+<li class="species" id="species-talosian">Talosian</li>
 <li class="character" id="character-tashayar">Tasha Yar</li>
 <li class="species" id="species-tellarite">Tellarite</li>
 <li class="character" id="character-thalen">Thalen</li>
