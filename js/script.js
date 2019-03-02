@@ -1,7 +1,5 @@
     $(document).ready(function(){
 
-    $(".tag-list").load("tag-list.txt");
-        
     //SEASON NAV CODE
     if ($('#season-nav').length) {
 
@@ -76,14 +74,14 @@
 
     //TITLE PADDING CODE
     $(window).on("resize", function () {
-        
+
         $('h3').each(function() {
             //set padding at top of episode to height of title + $standard-margin
             $(this).parent().css('padding-top', ($(this).outerHeight(true) + 4));
         });
 
     }).resize();
-    
+
 });
 
 //FUNCTIONS
@@ -99,7 +97,7 @@ function setShownTags() {
         //convert tag arrays to strings
         var shown_tags_concocted = classArrayToString(shown_tags);
         var removed_tags_concocted = classArrayToString(removed_tags);
-                
+
         //show only selected episodes
         if (shown_tags.length) {
             $('.episode').hide();
@@ -138,9 +136,9 @@ function setShownTags() {
         else {
             $(this).find('h2').show();
         }
-        
+
     });
-        
+
 }
 
 function addToArray(element_to_ID) {
