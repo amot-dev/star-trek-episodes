@@ -118,6 +118,7 @@
 <li class="species" id="species-krenim">Krenim</li>
 <li class="species" id="species-ktarian">Ktarian</li>
 <li class="character" id="character-kurn">Kurn</li>
+<li class="character" id="character-kyle">Kyle</li>
 <li class="character" id="character-leahbrahms">Leah Brahms</li>
 <li class="character" id="character-leeta">Leeta</li>
 <li class="character" id="character-leonardmccoy">Leonard "Bones" McCoy</li>
@@ -216,6 +217,7 @@
 <li class="species" id="species-vidiian">Vidiian</li>
 <li class="character" id="character-vorik">Vorik</li>
 <li class="species" id="species-vorta">Vorta</li>
+<li class="planet" id="planet-vulcan">Vulcan</li>
 <li class="species" id="species-vulcan">Vulcan</li>
 <li class="character" id="character-wesleycrusher">Wesley Crusher</li>
 <li class="character" id="character-weyoun">Weyoun</li>
