@@ -2,38 +2,39 @@ $(document).ready(function(){
     //load tag list into page
     $(".tag-list").load("tag-list.xml li");
 
-    //init hideseek
-    $('#search').hideseek({
-        //hidden_mode: true,
-        ignore: '.selected, .removed'
-    });
+    setTimeout(function(){
+        //init hideseek
+        $('#search').hideseek({
+            //hidden_mode: true,
+            ignore: '.selected, .removed'
+        });
 
-    //remove irrelevant tag buttons
-    $('.tag-list').children().each(function() {
-        var current_tag = $(this).attr('id');
-        if (!$('.' + current_tag).length) {
-            $(this).remove();
-        }
-    });
+        //remove irrelevant tag buttons
+        $('.tag-list').children().each(function() {
+            var current_tag = $(this).attr('id');
+            if (!$('.' + current_tag).length) {
+                $(this).remove();
+            }
+        });
 
-    //on clicking a tag
-    $('.tag-list').children().click(function(){
+        //on clicking a tag
+        $('.tag-list').children().click(function(){
 
-        //go through different states
-        if ($(this).hasClass('selected')) {
-            $(this).removeClass('selected').addClass('removed');
-        }
-        else if ($(this).hasClass('removed')) {
-            $(this).removeClass('removed');
-        }
-        else {
-            $(this).addClass('selected');
-        }
+            //go through different states
+            if ($(this).hasClass('selected')) {
+                $(this).removeClass('selected').addClass('removed');
+            }
+            else if ($(this).hasClass('removed')) {
+                $(this).removeClass('removed');
+            }
+            else {
+                $(this).addClass('selected');
+            }
 
-        setShownTags();
+            setShownTags();
 
-    });
-
+        });
+    }, 0);
 });
 
 //FUNCTIONS
