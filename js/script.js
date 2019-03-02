@@ -1,4 +1,4 @@
-    $(document).ready(function(){
+$(document).ready(function(){
 
     //SEASON NAV CODE
     if ($('#season-nav').length) {
