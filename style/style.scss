@@ -92,10 +92,12 @@ h2 {
         cursor: pointer;
     }
     .selected {
-        background-color: #a5d6a7 !important;
+        border: 3px solid #00c853;
+        //background-color: #a5d6a7 !important;
     }
     .removed {
-        background-color: #ef9a9a !important;
+        border: 3px solid #f44336;
+        //background-color: #ef9a9a !important;
     }
     .character {
         background-color: #90caf9;
