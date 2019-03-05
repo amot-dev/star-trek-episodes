@@ -127,6 +127,7 @@
 <li class="species" id="species-ktarian">Ktarian</li>
 <li class="character" id="character-kurn">Kurn</li>
 <li class="character" id="character-kyle">Kyle</li>
+<li class="species" id="species-kzinti">Kzinti</li>
 <li class="character" id="character-leahbrahms">Leah Brahms</li>
 <li class="character" id="character-leeta">Leeta</li>
 <li class="character" id="character-leonardmccoy">Leonard McCoy</li>
@@ -182,6 +183,7 @@
 <li class="planet" id="planet-remus">Remus</li>
 <li class="planet" id="planet-risa">Risa</li>
 <li class="species" id="species-risian">Risian</li>
+<li class="character" id="character-robertapril">Robert April</li>
 <li class="character" id="character-robinlefler">Robin Lefler</li>
 <li class="character" id="character-rogerlemli">Roger Lemli</li>
 <li class="character" id="character-rolaren">Ro Laren</li>
@@ -196,6 +198,7 @@
 <li class="character" id="character-shakaaredon">Shakaar Edon</li>
 <li class="planet" id="planet-shakaree">Sha Ka Ree</li>
 <li class="species" id="species-sheliak">Sheliak</li>
+<li class="planet" id="planet-shoreleave">Shore Leave Planet</li>
 <li class="character" id="character-silik">Silik</li>
 <li class="character" id="character-solbor">Solbor</li>
 <li class="species" id="species-sona">Son'a</li>
@@ -221,6 +224,7 @@
 <li class="character" id="character-tpau">T'Pau</li>
 <li class="character" id="character-tpol">T'Pol</li>
 <li class="character" id="character-travismayweather">Travis Mayweather</li>
+<li class="species" id="species-tribble">Tribble</li>
 <li class="planet" id="planet-trill">Trill</li>
 <li class="species" id="species-trill">Trill</li>
 <li class="character" id="character-tuvok">Tuvok</li>
