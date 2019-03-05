@@ -18,7 +18,7 @@ Don't use the 'feature' tag for this. That tag is reserved for features that wil
 ## Tags
 **Some episodes might be missing tags! Don't hesitate to add them if you notice!**
 
-Tags are found at the beginning of all html files with episodes. I'm thinking of moving them all to an xml file though.
+Tags are found in a separate xml file.
 When adding tags to episodes, there are some guidelines to follow:
 - Tags are to be added as additional classes to a `.episode` element
 - Tags must start with a prefix (character, species, mood, etc)
@@ -26,6 +26,6 @@ When adding tags to episodes, there are some guidelines to follow:
 - Don't suggest random ensigns as characters. All characters should have a somewhat significant role in at least one of the episodes they're in
 
 ### Prefixes
-- character: for a character that has appeared more than once (exception: important characters in movies)
-- planet: for a planet that has appeared more than once (exception: important planets in movies)
-- species: for a species that has appeared more than once and has more than one named member (exception: important species). To be used, there have to be multiple members of said species in the episode, excluding the main cast (eg. not all episodes with Spock will be marked Vulcan, nor all episodes with Worf marked Klingon)
+- character: for a recurring character (exception: important characters in movies)
+- planet: for a recurring planet (exception: important planets in movies)
+- species: for a recurring species that has more than one named member (exception: important species). To be used, there have to be multiple members of said species in the episode (or one very important member), excluding the main cast (eg. not all episodes with Spock will be marked Vulcan, nor all episodes with Worf marked Klingon)
