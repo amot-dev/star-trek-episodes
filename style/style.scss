@@ -90,6 +90,12 @@ h2 {
         margin: $standard-margin;
         border-radius: 50px;
         cursor: pointer;
+
+        //prevent selection when double clicking (which users might do to skip past excluding a tag)
+        -moz-user-select: none;
+        -webkit-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
     }
     .selected {
         border: 3px solid #00c853;
