@@ -67,7 +67,7 @@
     <!-- UNUSED --><li class="character" id="character-enabrantain">Enabran Tain</li>
     <!-- UNUSED --><li class="character" id="character-erikahernandez">Erika Hernandez</li>
     <!-- UNUSED --><li class="character" id="character-ezridax">Ezri Dax</li>
-    <!-- UNUSED --><li class="species" id="species-ferengi">Ferengi</li>
+    <li class="species" id="species-ferengi">Ferengi</li>
     <!-- UNUSED --><li class="planet" id="planet-ferenginar">Ferenginar</li>
     <!-- UNUSED --><li class="character" id="character-gaila">Gaila</li>
     <!-- UNUSED --><li class="planet" id="planet-genesis">Genesis Planet</li>
