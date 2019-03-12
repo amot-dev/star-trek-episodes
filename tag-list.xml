@@ -53,7 +53,6 @@
     <li class="character" id="character-deannatroi">Deanna Troi</li>
     <li class="character" id="character-degra">Degra</li>
     <li class="species" id="species-denobulan">Denobulan</li>
-    <li class="character" id="character-desalle">DeSalle</li>
     <li class="species" id="species-devore">Devore</li>
     <li class="character" id="character-dexterremmick">Dexter Remmick</li>
     <li class="character" id="character-doctorchaotica">Doctor Chaotica</li>
@@ -70,9 +69,7 @@
     <li class="character" id="character-ezridax">Ezri Dax</li>
     <li class="species" id="species-ferengi">Ferengi</li>
     <li class="planet" id="planet-ferenginar">Ferenginar</li>
-    <li class="character" id="character-gabler">Gabler</li>
     <li class="character" id="character-gaila">Gaila</li>
-    <li class="character" id="character-galloway">Galloway</li>
     <li class="planet" id="planet-genesis">Genesis Planet</li>
     <li class="character" id="character-geordilaforge">Geordi LaForge</li>
     <li class="character" id="character-gor">Gor</li>
@@ -81,7 +78,6 @@
     <li class="character" id="character-gregoryquinn">Gregory Quinn</li>
     <li class="character" id="character-grilka">Grilka</li>
     <li class="character" id="character-guinan">Guinan</li>
-    <li class="character" id="character-hadley">Hadley</li>
     <li class="character" id="character-harrykim">Harry Kim</li>
     <li class="character" id="character-harrymudd">Harry Mudd</li>
     <li class="character" id="character-hayes">Hayes</li>
@@ -103,7 +99,6 @@
     <li class="character" id="character-jareshinyo">Jaresh Inyo</li>
     <li class="character" id="character-jeanlucpicard">Jean-Luc Picard</li>
     <li class="species" id="species-jemhadar">Jem'Hadar</li>
-    <li class="character" id="character-johnfarrell">John Farrell</li>
     <li class="character" id="character-jonathanarcher">Jonathan Archer</li>
     <li class="character" id="character-josephcarey">Joseph Carey</li>
     <li class="character" id="character-josephsisko">Joseph Sisko</li>
@@ -116,7 +111,6 @@
     <li class="species" id="species-kazon">Kazon</li>
     <li class="character" id="character-kehleyr">K'Ehleyr</li>
     <li class="character" id="character-keikoobrien">Keiko O'Brien</li>
-    <li class="character" id="character-kelowitz">Kelowitz</li>
     <li class="character" id="character-kes">Kes</li>
     <li class="character" id="character-kevinriley">Kevin Riley</li>
     <li class="planet" id="planet-khitomer">Khitomer</li>
@@ -137,7 +131,6 @@
     <li class="character" id="character-leeta">Leeta</li>
     <li class="character" id="character-leonardmccoy">Leonard McCoy</li>
     <li class="character" id="character-leonardmccoy-alt">Leonard McCoy (Alt. Reality)</li>
-    <li class="character" id="character-leslie">Leslie</li>
     <li class="species" id="species-lethean">Lethean</li>
     <li class="character" id="character-lewiszimmerman">Lewis Zimmerman</li>
     <li class="character" id="character-lonsuder">Lon Suder</li>
@@ -177,7 +170,6 @@
     <li class="species" id="species-orion">Orion</li>
     <li class="character" id="character-owenparis">Owen Paris</li>
     <li class="species" id="species-pakled">Pakled</li>
-    <li class="character" id="character-palmer">Palmer</li>
     <li class="character" id="character-pavelchekov">Pavel Chekov</li>
     <li class="character" id="character-pavelchekov-alt">Pavel Chekov (Alt. Reality)</li>
     <li class="character" id="character-phlox">Phlox</li>
@@ -192,7 +184,6 @@
     <li class="species" id="species-risian">Risian</li>
     <li class="character" id="character-robertapril">Robert April</li>
     <li class="character" id="character-robinlefler">Robin Lefler</li>
-    <li class="character" id="character-rogerlemli">Roger Lemli</li>
     <li class="character" id="character-rolaren">Ro Laren</li>
     <li class="character" id="character-rom">Rom</li>
     <li class="species" id="species-romulan">Romulan</li>
