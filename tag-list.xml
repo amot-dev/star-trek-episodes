@@ -24,7 +24,7 @@
     <!-- UNUSED --><li class="character" id="character-benjaminsisko">Benjamin Sisko</li>
     <!-- UNUSED --><li class="species" id="species-benzite">Benzite</li>
     <!-- UNUSED --><li class="planet" id="planet-betazed">Betazed</li>
-    <!-- UNUSED --><li class="species" id="species-betazoid">Betazoid</li>
+    <li class="species" id="species-betazoid">Betazoid</li>
     <li class="character" id="character-betor">B'Etor</li>
     <li class="character" id="character-beverlycrusher">Beverly Crusher</li>
     <!-- UNUSED --><li class="species" id="species-bolian">Bolian</li>
