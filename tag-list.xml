@@ -35,6 +35,7 @@
     <!-- UNUSED --><li class="species" id="species-breen">Breen</li>
     <!-- UNUSED --><li class="character" id="character-broca">Broca</li>
     <!-- UNUSED --><li class="character" id="character-brunt">Brunt</li>
+    <li class="species" id="species-bynar">Bynar</li>
     <!-- UNUSED --><li class="planet" id="planet-cardassia">Cardassia</li>
     <!-- UNUSED --><li class="species" id="species-cardassian">Cardassian</li>
     <!-- UNUSED --><li class="planet" id="planet-cetialpha5">Ceti Alpha V</li>
