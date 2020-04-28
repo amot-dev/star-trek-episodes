@@ -4,13 +4,13 @@
 Don't use the 'feature' tag for this. That tag is reserved for features that will be added for sure. The 'idea' tag is for suggestions and possible features/enhancements
 
 ## Seasons
-- Seasons are `.season` sections with an id like `tos-season-2` for Season 2 of The Original Series
+- Seasons are `.season` sections with an id like `season-2` for Season 2 of any show
 - Seasons have titles like `<h2>Season 2</h2>`. An exception is the TOS Pilot, which is its own season
 
 ## Episodes
-- Episodes are `.episode` article tags with an id like `tos-episode-102` for S1E2 or `tos-episode-321` for S3E21
-- They also have an `episode` metadata which simply identifies the number of the episode regardless of season or show
-- Episode have an `<h3>` title, followed by a `.num` span denoting the season and episode number in a human readable way like 2x14 for S2E14
+**None of the below should need to be done manually!**
+- Episodes are `.episode` article tags
+- Episode have an `<h3>` title, followed by a `.num` span denoting the season and episode number formatted like 2x14 for Episode 14 of Season 2
 - Below that is attached the image from Memory Alpha for the episode
 - Below that is the description of the epiode from Memory Alpha
 - Finally, there is a link to the Memory Alpha page for the episode that opens in a new tab
@@ -18,8 +18,7 @@ Don't use the 'feature' tag for this. That tag is reserved for features that wil
 ## Tags
 **Some episodes might be missing tags! Don't hesitate to add them if you notice!**
 
-Tags are found in a separate xml file.
-When adding tags to episodes, there are some guidelines to follow:
+Tags are found in a separate xml file. When adding tags to episodes, there are some guidelines to follow:
 - Tags are to be added as additional classes to a `.episode` element
 - Tags must start with a prefix (character, species, mood, etc)
 - Use the 'Idea' label in issues to suggest a new tag or prefix
