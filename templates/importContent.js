@@ -44,7 +44,7 @@ function setDescriptions(i){
 	url = $('.episode').eq(i).find('a').attr('href') + " p:lt(1)";
 	load.load(url, function(){
 		episodeDescription = load.text();
-		$('.episode').eq(i).find('.description').text(episodeDescription);
+		$('.episode').eq(i).find('p').text(episodeDescription);
 	});
 }
 function setImages(i){
