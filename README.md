@@ -1,7 +1,9 @@
 # Star Trek Episodes
+
 A sortable list of all Star Trek episodes.
 
 When complete, this project will contain a list of all Star Trek episodes and movies. Each episode or movie will have:
+
 - A title
 - An episode number
 - An image
