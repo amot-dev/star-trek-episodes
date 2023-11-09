@@ -34,7 +34,7 @@ $(document).ready(function(){
             setShownTags();
 
         });
-    }, 0);
+    }, 50);
 });
 
 //FUNCTIONS
